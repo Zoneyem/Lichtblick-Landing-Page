@@ -14,17 +14,22 @@ body{
     
 }
 
+main{
+    display: grid;
+}
+
 
 
 .nav-container{
-    display: flex;
+    display:block;
     flex-basis: 100%;
     flex-wrap: wrap;
     flex-shrink: 1;
-    flex-direction: row;
+    flex-direction: column;
     flex-grow: 1;
     justify-content: space-around;
-    justify-content: flex-end;
+   
+    
 }
 .logo{
     height: 40px;
@@ -33,19 +38,38 @@ body{
     flex-basis: 100%;
     
     flex-direction: row;
+    display: block;
+
 }
 
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+#row3{
+position: absolute;
+
+right: 0;
+}
+
+
+#row2{
+
+    position: absolute;
+    clear: both;
+    
+}
 
  .number{
     
     flex-grow: 1;
     flex-shrink: 1;
-    flex-wrap: wrap;
     
-    justify-content: flex-end;
-    display: flex;
     flex-direction: column;
     width: 100%;
+    display: inline-block;
+    position: relative;
     
     
     
@@ -79,32 +103,50 @@ h4{
     
 }
 
-
-img{
+.banner{
     width: 100%;
-    height: 400px;
+    height: auto;
+   
+}
+
+
+
+
+img{width: 100%;
+    height: auto;
+    
     margin-left: 30px;
+    display: block;
+    
 }
 
 h1{
     font-family: 'Lato', sans-serif;
-    margin-left: 30px;
+    
 }
 h3{
     font-family: 'Roboto Slab', serif;
-    margin-left: 30px;
+    
 
 }
 
 .strom-container{
     background-color: #A47075;
+    position: sticky;
     width: 100%;
     height: 500px;
-    margin-left: 30px;
+    
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+
+
+   
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+   
     
 }
 #light{
@@ -118,11 +160,17 @@ h3{
     width: 240px;
     border: 3px solid black;
     border-radius: 10px;
-    margin-left:110px;
+    margin-left:150px;
     margin-top: 50px;
     text-align: center;
     align-items: center;
     padding-right: 1.6rem;
+    align-self: center;
+    position: sticky;
+    align-items: center;
+    justify-self: center;
+    display: grid;
+    align-content: center;
    
 }
 
@@ -134,3 +182,169 @@ h3{
     
     
 }
+
+.emepartie{
+    margin-left: 30px;
+    width: 100%;
+    height: 250px;
+   
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-mann{
+    border: 2px solid grey;
+    margin: 10px 40px 30px 40px;
+    border-radius: 10px;
+    display: block;
+text-align: center;
+
+}
+
+.container-frau{
+    border: 2px solid grey;
+    margin: 10px 40px 30px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modifier{
+    text-align: left;
+}
+
+.igor{
+    margin-left: -0px;
+}
+
+
+
+
+
+
+.Licht-container{
+    background-color: slategray;
+    width: 100%;
+    height: 600px;
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    flex-direction: column;
+    
+}
+
+.licht-strom{
+
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+#light{
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    
+    
+}
+
+.carre2{
+    height: 70px;
+    width: 190px;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+    margin-top: 50px;
+    
+    align-items: center;
+    justify-self: center;
+    display: grid;
+    align-content: center;
+    
+    
+   
+}
+
+.strom1{
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+    
+
+    }
+
+.sepretor{
+
+    background-color: whitesmoke;
+    width: 100%;
+    height: 90px;
+}
+
+
+
+
+
+
+
+
+
+.footer-container{
+
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.rowfooter{
+
+margin-top: 30px;
+}
+
+.beau{
+    margin-top: 30px;
+    display: block;
+    
+}
+
+.final{
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 90px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fix{
+    padding-left: 0px;
+}
+
+
+
+
+
+
+
+/*extraaaaaaaaa*/
+
+
+
+
+
+   
