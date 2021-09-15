@@ -318,10 +318,11 @@ text-align: center;
 
     background-color: black;
     color: white;
-    display: grid;
+    display: flex;
     justify-content: center;
     align-content: center;
     text-align: center;
+    flex-direction: row;
 
 }
 
@@ -346,6 +347,7 @@ margin-top: 30px;
 
 .fix{
     padding-left: 0px;
+    display: block;
 }
 
 
