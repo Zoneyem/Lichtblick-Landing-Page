@@ -2,13 +2,13 @@
 html{
     font-family: 'Lato', sans-serif;
 font-family: 'Roboto Mono', monospace;
-margin: 0 ;
+
 
 
 }
 
 body{
-    margin: 0 ;
+    margin:0 auto ;
     box-sizing: border-box;
     background-color: whitesmoke;
     
@@ -16,6 +16,7 @@ body{
 
 main{
     display: grid;
+    margin: 5px;
 }
 
 
@@ -122,13 +123,17 @@ h4{
    
 }
 
+.banner-container{
+    margin: 5px;
+}
+
 
 
 
 img{width: 100%;
     height: auto;
     
-    margin-left: 30px;
+    
     display: block;
     
 }
@@ -323,6 +328,7 @@ text-align: center;
     align-content: center;
     text-align: center;
     flex-direction: row;
+    margin: 5px;
 
 }
 
@@ -360,33 +366,3 @@ margin-top: 30px;
 
 
 
-<div class="Licht-container">
-<div class="licht-strom">
-    <p>
-        <h1>
-            LichtBlick erarbeitet 5 Klimaformen für Klimaneutralität bis 2035
-        </h1>
-
-
-        <h3 id="light">
-           Die Wahl 2021 wird zur Klimawahl. Ihr Ausgang <br>entscheidet, ob wir die Klimaziele des Pariser <br>Abkommens erreichen. Klar ist: Es braucht große <br>politische Veränderungen 
-        </h3>         
-    </p>
-
-        <div class="carre2">
-            <p class="strom1">
-              <h3 class="text3">
-                Zu den Reformen
-              </h3>  
-            </p>
-            
-        </div>
-
-
- </div>
-    
-    
-</div>
-
-
-   
